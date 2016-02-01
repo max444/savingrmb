@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var domainStr = 'www.xiangrikuimama.com'
+var domainStr = 'www.savingrmb.com'
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -38,7 +38,7 @@ router.get('/', function(req, res, next) {
 				}
 			});
 	}else{ 
-  	res.render('index', { title: 'xiangrikuimama', domain:domainStr});
+  	res.render('index', { title: 'savingrmb', domain:domainStr});
   }
 });
 
